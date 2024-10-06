@@ -1,0 +1,29 @@
+.accordion {
+    padding: 1rem 1.25rem; /* $accordion-padding-y ve $accordion-padding-x */
+    background-color: rgba(0, 0, 0, 0.116); /* $accordion-bg */
+    transition: border-radius .15s ease; /* $accordion-transition */
+}
+
+.accordion-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px; /* Galeri etrafında boşluk */
+    gap: 60px;
+    
+}
+
+.accordion-body img {
+    width: 320px; /* Her bir resmin genişliği */
+    height: 300px; /* Her bir resmin yüksekliği */
+    border: 3px solid #ccc; /* Resimlerin etrafına çerçeve */
+    border-radius: 8px; /* Kenarları yuvarla */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* gölge efekti */
+}
+ 
+figcaption {
+    margin-top: 5px; /* Resim ile yazı arasındaki boşluk */
+    font-size: 20px;
+    color: #000000;
+    text-align: center; /* Yazıyı ortalar */
+    
+}
